@@ -1,7 +1,10 @@
 <header>
-    <h1>{{ title }}</h1>
+    <h1>{{ title.toUpperCase() }}</h1>
     <app-button color="green" 
     text="Add" 
-    (btnClick)="toggleAddTask()">
+    (btnClick)="toggleAddTask()"> 
 </app-button>
 </header>
+
+
+<!-- btnClick is coming from the child=>buuton component.ts -->
